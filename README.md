@@ -1,6 +1,9 @@
-# EEG-fNIRS Indicators for Monitoring Emotional Attention and Fatigue
+# A Preliminary Study on EEG-fNIRS Indicators for Monitoring Emotional Attention and Fatigue
 
 ## Project Overview
+
+![image](https://github.com/user-attachments/assets/0c403a7b-062b-47db-a46a-615660aa3908)
+
 
 This project investigates the **neurophysiological mechanisms of attention and fatigue** under emotional stimuli using a **hybrid EEG-fNIRS system**. By employing an *Emotional Face-Word Stroop Task*, we analyze how congruency between facial expressions and emotional words modulates cognitive processes, and whether mental fatigue accumulates over time.
 
@@ -16,6 +19,8 @@ This project investigates the **neurophysiological mechanisms of attention and f
 ---
 
 ## Experimental Setup
+
+![image](https://github.com/user-attachments/assets/24cf764b-f46e-45d0-88be-2355f5bfd77f)
 
 ### Stimuli
 - **YFaceDB**: Korean facial expression image dataset.
@@ -79,10 +84,14 @@ This project investigates the **neurophysiological mechanisms of attention and f
 - Congruency effect: SI > HI > HC ≈ SC in negative amplitude
 - Topographical comparison across conditions
 
+![image](https://github.com/user-attachments/assets/b9e5b779-d817-4499-a37a-0826324f8050)
+
 ### fNIRS (Fatigue)
 - Channel-wise HbO changes over trials
 - No significant linear trend (fatigue not induced)
 - ANOVA: No effect of trial block on HbO
+
+![image](https://github.com/user-attachments/assets/d385eae4-f7e4-4fe7-86f7-c4603d16478a)
 
 ---
 
@@ -116,5 +125,15 @@ This project investigates the **neurophysiological mechanisms of attention and f
 ---
 
 ## Directory Structure
+
+- `analysis/`  
+  Contains Python scripts and Jupyter notebooks for EEG/fNIRS signal processing and data analysis.
+
+- `data/`  
+  Stores raw and preprocessed experimental data, including EEG, fNIRS, and participant response files.
+
+- `experiment/`  
+  Includes the experiment program code and related stimulus presentation scripts.
+
 
 
