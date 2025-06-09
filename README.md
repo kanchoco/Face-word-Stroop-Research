@@ -119,8 +119,6 @@ This project investigates the **neurophysiological mechanisms of attention and f
 
 - **Increase task complexity**: block design or repetitive dual tasks
 - **Larger participant pool** for statistical power
-- **Integrate EEG-fNIRS features** into machine learning models
-- Explore **longer emotional tasks** or **VR-based immersive stimuli**
 
 ---
 
